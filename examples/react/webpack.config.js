@@ -41,6 +41,9 @@ const serverConfig = {
   devServer: {
     hot: true
   },
+  resolve: {
+    extensions: ['.ts', '.tsx', '.js', '.jsx']
+  },
   externals: [
     meteorExternals()
   ]
