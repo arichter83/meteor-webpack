@@ -35,7 +35,7 @@ const clientConfig = {
 
 const serverConfig = {
   entry: [
-    './server/main.js'
+    './server/main.ts'
   ],
   target: 'node',
   devServer: {
